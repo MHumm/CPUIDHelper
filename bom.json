@@ -1,0 +1,170 @@
+﻿{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7241aa77-0bc3-44bd-ac58-1e8b5d7ca45d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-24T19:28:33Z",
+    "component": {
+      "type": "library",
+      "name": "CPUSupportProject",
+      "version": "1.0.0.0.0",
+      "bom-ref": "CPUSupportProject",
+      "supplier": {
+        "name": "Markus Humm",
+        "url": [
+          "https://github.com/MHumm/CPUIDHelper"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/MHumm/CPUIDHelper@1.0.0.0.0"
+    },
+    "manufacturer": {
+      "contact": [
+        {
+          "email": "markus.humm@gmail.com"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "net.developer-experts.dx-comply:document.profile",
+        "value": "library-source"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Olaf Monien",
+          "name": "DX.Comply",
+          "version": "2.0.2.0"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "name": "CPUSupport.pas",
+      "version": "1.0.0.0.0",
+      "bom-ref": "comp-0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b6e1269f685a9f888785006bf39bb8fa14155aea4b89ea23873e18b0f6edc0ce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6adfef725543774432a18668458d012b02cd3d4e6f944523066595ed6a5fd02b4fdd2cd80ba6d147459b79b73735d87af6741f0c3a49ffb2fe750888fe5e45c1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "file:size",
+          "value": "13027"
+        },
+        {
+          "name": "net.developer-experts.dx-comply:relativePath",
+          "value": "CPUSupport.pas"
+        },
+        {
+          "name": "bsi:component:filename",
+          "value": "CPUSupport.pas"
+        },
+        {
+          "name": "bsi:component:executable",
+          "value": "non-executable"
+        },
+        {
+          "name": "bsi:component:archive",
+          "value": "no archive"
+        },
+        {
+          "name": "bsi:component:structured",
+          "value": "unstructured"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "CPUSupportProject.dpr",
+      "version": "1.0.0.0.0",
+      "bom-ref": "comp-1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b4ae45f71800aa713a9f021df0c91a4d4d8ceb8a7b020b9834ea025afbd3f132"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c56519043728f3f7470cad9ebf266d756e8833d4f10a70054f7447a07677b0ad2dceee04cc855452e95d1549f841315b574956f48716ecab54e42ee87ec6e59a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "file:size",
+          "value": "297"
+        },
+        {
+          "name": "net.developer-experts.dx-comply:relativePath",
+          "value": "CPUSupportProject.dpr"
+        },
+        {
+          "name": "bsi:component:filename",
+          "value": "CPUSupportProject.dpr"
+        },
+        {
+          "name": "bsi:component:executable",
+          "value": "non-executable"
+        },
+        {
+          "name": "bsi:component:archive",
+          "value": "no archive"
+        },
+        {
+          "name": "bsi:component:structured",
+          "value": "unstructured"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CPUSupportProject",
+      "dependsOn": [
+        "comp-0",
+        "comp-1"
+      ]
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "comp-0",
+        "comp-1"
+      ]
+    },
+    {
+      "aggregate": "unknown",
+      "dependencies": [
+        "CPUSupportProject"
+      ]
+    }
+  ]
+}

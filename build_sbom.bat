@@ -1,0 +1,1 @@
+dxcomply --library --project=CPUSupportProject.dpr --source-dir=.\ --version=1.0.0.0.0 --repo-url=https://github.com/MHumm/CPUIDHelper --licence=Apache-2.0 --supplier="Markus Humm" --supplier-url=https://github.com/MHumm/CPUIDHelper --sbom-creator=markus.humm@gmail.com --report=html
