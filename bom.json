@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:7241aa77-0bc3-44bd-ac58-1e8b5d7ca45d",
+  "serialNumber": "urn:uuid:c5a69e39-a5a5-4165-8a90-c7749b6431a8",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-24T19:28:33Z",
+    "timestamp": "2026-10-25T09:21:58Z",
     "component": {
       "type": "library",
       "name": "CPUSupportProject",
